@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Cat_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|c:\\users\\asus\\cat_project\\assets\\scripts\\camermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|c:\\users\\asus\\cat_project\\assets\\scripts\\infinitescroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infinitescroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CamerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\CamerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CamerMovement.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\CamerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CamerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:45:28.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InfiniteScroll.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\InfiniteScroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InfiniteScroll.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\InfiniteScroll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InfiniteScroll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:42:52.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
