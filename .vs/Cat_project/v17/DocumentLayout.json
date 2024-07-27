@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Cat_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|c:\\users\\asus\\cat_project\\assets\\scripts\\fixedresolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fixedresolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\inventory\\inventoryuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|c:\\users\\asus\\cat_project\\assets\\scripts\\camermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|c:\\users\\asus\\cat_project\\assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\infinitescroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infinitescroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\inventory\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\items\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\inventory\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|C:\\Users\\Asus\\Cat_project\\assets\\scripts\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC9963E-07FA-E2B3-21AA-7E4445B34A3D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\FixedResolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FixedResolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\CamerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CamerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\InfiniteScroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InfiniteScroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Invntory\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Invntory\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +54,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventorySlot.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\InventorySlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventorySlot.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\InventorySlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventorySlot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:43:38.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Items\\ItemDataBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\ItemDataBase.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Items\\ItemDataBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\ItemDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:29:19.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\GameManager.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:22:10.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Inventory.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\Inventory.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:12:22.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InventoryUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\InventoryUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryUIManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Inventory\\InventoryUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryUIManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:42:17.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Items\\ItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\ItemData.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Items\\ItemData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\ItemData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:29:10.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Item.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Items\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T17:09:26.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Invntory\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Invntory\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\Invntory\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Invntory\\InventoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:30:18.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FixedResolution.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\FixedResolution.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FixedResolution.cs",
               "ToolTip": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\FixedResolution.cs",
               "RelativeToolTip": "Assets\\Scripts\\FixedResolution.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:36:18.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T20:36:18.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CamerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\CamerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CamerMovement.cs",
@@ -47,12 +175,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CamerMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T14:45:28.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T14:45:28.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "InfiniteScroll.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Cat_project\\Assets\\Scripts\\InfiniteScroll.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InfiniteScroll.cs",
