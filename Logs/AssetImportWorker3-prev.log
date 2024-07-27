@@ -15,7 +15,7 @@ C:/Users/Asus/Cat_project
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52677
+53694
 Successfully changed project path to: C:/Users/Asus/Cat_project
 C:/Users/Asus/Cat_project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Asus/Cat_project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7212]  Target information:
+Player connection [9232]  Target information:
 
-Player connection [7212]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 603319824 [EditorId] 603319824 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ERV8LFG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9232]  * "[IP] 192.168.96.13 [Port] 0 [Flags] 2 [Guid] 166413372 [EditorId] 166413372 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ERV8LFG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7212] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7212] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9232] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 13.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007486 seconds.
-- Loaded All Assemblies, in  0.419 seconds
+Registered in 0.005037 seconds.
+- Loaded All Assemblies, in  0.285 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.305 seconds
-Domain Reload Profiling: 723ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.182 seconds
+Domain Reload Profiling: 466ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (122ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (82ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (305ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (182ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (143ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (166ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +119,8 @@ Domain Reload Profiling: 723ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 7.62 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -134,47 +134,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.655 seconds
-Domain Reload Profiling: 1327ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 870ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (425ms)
-		LoadAssemblies (316ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (216ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (142ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (655ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (432ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (478ms)
+		SetupLoadedEditorAssemblies (321ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (347ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (67.9 KB). Loaded Objects now: 4753.
-Memory consumption went from 148.0 MB to 147.9 MB.
-Total: 3.148000 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.765900 ms  DeleteObjects: 0.116800 ms)
+Unloading 4318 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (68.0 KB). Loaded Objects now: 4767.
+Memory consumption went from 156.4 MB to 156.3 MB.
+Total: 2.558800 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.191400 ms  DeleteObjects: 0.111700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,52 +192,1411 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 496918.336809 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f22c4432d93bdc74c5dbf94ce790065c') in 0.002413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Adaptive Performance/Settings
-  artifactKey: Guid(8fe594d825851ab4f8b29444fc629729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adaptive Performance/Settings using Guid(8fe594d825851ab4f8b29444fc629729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2921aeeff6389c4b50cff457c3db6739') in 0.000359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset
-  artifactKey: Guid(bc54bd38803f23b43beea29f7f20d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset using Guid(bc54bd38803f23b43beea29f7f20d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '763fa184fa4a3a4eea04f7079c0438e5') in 0.014722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.898955 seconds.
-  path: Assets/maps/depositphotos_148470101-stock-illustration-mountains-landscape-for-ui-game.jpg
-  artifactKey: Guid(2993fc94cb4ce31439c5acf11d65e6c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/maps/depositphotos_148470101-stock-illustration-mountains-landscape-for-ui-game.jpg using Guid(2993fc94cb4ce31439c5acf11d65e6c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9ac2d9aeeda5a646cc394984f4543625') in 0.178853 seconds
+  Time since last request: 559720.215242 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_02_coins.png
+  artifactKey: Guid(e616d555411e2994b8c662c95df65809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_02_coins.png using Guid(e616d555411e2994b8c662c95df65809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0593a330d02dd998acf1c69590d79ecb') in 0.091483 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/TutorialInfo/Icons/Help_Icon.png
-  artifactKey: Guid(9266273b8f123004195741f969177dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(9266273b8f123004195741f969177dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f85b8c9a15447c715f431a66eeeb917a') in 0.030789 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_60_key.png
+  artifactKey: Guid(6cbbc34c794f0e24fb19aa45c5ea8d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_60_key.png using Guid(6cbbc34c794f0e24fb19aa45c5ea8d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3806f1c4f77274361d09b5e0f2ccd4d2') in 0.021722 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_03_coins.png
+  artifactKey: Guid(e82ad6c5efbcc5b4481fb235231630e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_03_coins.png using Guid(e82ad6c5efbcc5b4481fb235231630e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dd6530db36341774da613be3a954b99') in 0.028014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_18_ropepart.png
+  artifactKey: Guid(5a16ffac47061ab4e8c407446d36e4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_18_ropepart.png using Guid(5a16ffac47061ab4e8c407446d36e4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e72df7ea5a0e177dc3ec42093d415714') in 0.022693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_54_key.png
+  artifactKey: Guid(e53f60de645bef24a8a70fd7595cba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_54_key.png using Guid(e53f60de645bef24a8a70fd7595cba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ad6ae40d99c8332c90d18dd2f8b85fe8') in 0.022495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_20_dust.png
+  artifactKey: Guid(da8d5f7dd4730974f966ef845d1723db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_20_dust.png using Guid(da8d5f7dd4730974f966ef845d1723db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0fb0bf5870585e62b1d60627350c91db') in 0.073345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_22_remains.png
+  artifactKey: Guid(eb0cebe814986b845949de4081d03260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_22_remains.png using Guid(eb0cebe814986b845949de4081d03260) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b7a90608f5cab79e16b10c6e8725e218') in 0.027034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_65_boot.png
+  artifactKey: Guid(a2fee38958aeda042b10c936564e7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_65_boot.png using Guid(a2fee38958aeda042b10c936564e7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f4c5402342a031624788bbadcaf7fe1') in 0.026563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_39_fur.png
+  artifactKey: Guid(5e145bbb43c77f34491f119d8f5aca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_39_fur.png using Guid(5e145bbb43c77f34491f119d8f5aca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8fb6fd9efc09a890df6a58466bfd5d2b') in 0.025133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_49_pieceLeather.png
+  artifactKey: Guid(2dfb4c9f2192faa40a4697133c3bef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_49_pieceLeather.png using Guid(2dfb4c9f2192faa40a4697133c3bef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f75f86f7adfa6ad82fc0d149082fa1b0') in 0.027206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_29_rune.png
+  artifactKey: Guid(e04406b26aa3a764789aae13ff10c53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_29_rune.png using Guid(e04406b26aa3a764789aae13ff10c53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6147d4a0239d1783e7585a32714a97b') in 0.063845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_41_bones.png
+  artifactKey: Guid(9196b1255c3c96449921fca8138678ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_41_bones.png using Guid(9196b1255c3c96449921fca8138678ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf077a8ca92fbbf3166e62bff585beed') in 0.030169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_71_key.png
+  artifactKey: Guid(86bd61c3e528add43af1a201206dd0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_71_key.png using Guid(86bd61c3e528add43af1a201206dd0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd05543d568ecf8e5a4b5d89e221b230c') in 0.020873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_40_fur.png
+  artifactKey: Guid(d539c7a372212624a8f5872aa136ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_40_fur.png using Guid(d539c7a372212624a8f5872aa136ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '025038b86f891aaf208e4b07c5541329') in 0.043805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_70_key.png
+  artifactKey: Guid(604f441885a8261489de3d6389515dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_70_key.png using Guid(604f441885a8261489de3d6389515dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9ee54b51af728e970655e7a28535dcb') in 0.019489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_06.png
+  artifactKey: Guid(c2c55f4712502524f8b77606147795fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_06.png using Guid(c2c55f4712502524f8b77606147795fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '131a802db7cdad0eeb5a27d64924d2a0') in 0.039847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_36_bag.png
+  artifactKey: Guid(aa0d36f8c5c54ff41b5efbe893925489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_36_bag.png using Guid(aa0d36f8c5c54ff41b5efbe893925489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6da6325a8d5385a7bcb6bb356b4aa731') in 0.031758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_35_bag.png
+  artifactKey: Guid(ac8e918d737eebc4bbed1caa710bbcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_35_bag.png using Guid(ac8e918d737eebc4bbed1caa710bbcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '703d8cf129f5581da9b8826e19629ce0') in 0.025184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_08_dagger.png
+  artifactKey: Guid(5ac1b310179b21749a26c9e718a75d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_08_dagger.png using Guid(5ac1b310179b21749a26c9e718a75d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e0a7c1c94b4402fdda04df382ca0745') in 0.030988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_16_arrows.png
+  artifactKey: Guid(4d15fc2bfcf4a3e43a0e76758af64819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_16_arrows.png using Guid(4d15fc2bfcf4a3e43a0e76758af64819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a975ea0a8167efbdcf60f5af7967ae2') in 0.021220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_79_water.png
+  artifactKey: Guid(5f9a217230534e74aa5dbe69f826cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/ProfessionIcons/LootIcons/Loot_79_water.png using Guid(5f9a217230534e74aa5dbe69f826cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f132390f6dbc519c2c6c91b4bc2301a6') in 0.044366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.098976 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/Formation/Formation_InARow.png
+  artifactKey: Guid(e0aa8c2a82b81b24f89499ef482874ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/Formation/Formation_InARow.png using Guid(e0aa8c2a82b81b24f89499ef482874ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87b514ee24cdaec628cc6daa0500caed') in 0.106356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.160390 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Basil.png
+  artifactKey: Guid(c202b4966d2133b47862b2049cfa3a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Basil.png using Guid(c202b4966d2133b47862b2049cfa3a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8606f79287ad68e20db4668ed3e5b44') in 0.031397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BlackBag.png
+  artifactKey: Guid(65834340bf2353644ac395e982c7af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BlackBag.png using Guid(65834340bf2353644ac395e982c7af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bdde3fcaef95f78d172f1b7ca985678f') in 0.033445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/CopperCoinThree.png
+  artifactKey: Guid(0054d160b62685744828613901c12316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/CopperCoinThree.png using Guid(0054d160b62685744828613901c12316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9316acc7ecdcb95e0883dde87b48365b') in 0.036577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BucketOfWater.png
+  artifactKey: Guid(26b618482951e12489ecd9e3c024d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BucketOfWater.png using Guid(26b618482951e12489ecd9e3c024d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5a4951fd3b2577c217da0b0a161d36f') in 0.022313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Book.png
+  artifactKey: Guid(1c0341991dc31d14f9dca8b961edc900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Book.png using Guid(1c0341991dc31d14f9dca8b961edc900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe381a2e7d047748e57df37f6c015faf') in 0.019901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/MeatWithPotatos.png
+  artifactKey: Guid(d6d422abe4105c449a546ce3a925218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/MeatWithPotatos.png using Guid(d6d422abe4105c449a546ce3a925218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f4aa764a12f98ca4c13ef2b7fe969107') in 0.024790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/FlourBag.png
+  artifactKey: Guid(a3fee680b441c3544912c193e8bb1199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/FlourBag.png using Guid(a3fee680b441c3544912c193e8bb1199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '877d4d5a654f84f4e68ac36bf57615e5') in 0.023613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Basket.png
+  artifactKey: Guid(ded0e3ff442de8c45a53cbfb531330f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Basket.png using Guid(ded0e3ff442de8c45a53cbfb531330f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b366ac8231dcef7f84b27e7901e9f860') in 0.041080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BottleOfWine.png
+  artifactKey: Guid(b419eead1a5d5c04f8468528b4d2bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BottleOfWine.png using Guid(b419eead1a5d5c04f8468528b4d2bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '755e1b1828cec8521cccbed7c1d040f0') in 0.041233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/FriedOnions.png
+  artifactKey: Guid(8551d70ae76205a46906a1552e15af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/FriedOnions.png using Guid(8551d70ae76205a46906a1552e15af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '835ffe02ffa535dddfd338fc0ee49334') in 0.046732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Carrot.png
+  artifactKey: Guid(f6dc0294642e8e54b8410e8aee3b7bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Carrot.png using Guid(f6dc0294642e8e54b8410e8aee3b7bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b729f3205326bb1ffc728008d1b8e6b') in 0.026147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/GlassOfWine.png
+  artifactKey: Guid(4a80927c88114264e90ba21033c56a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/GlassOfWine.png using Guid(4a80927c88114264e90ba21033c56a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a5c03674c2b41c18c93a996b1679c8df') in 0.083595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Cherry.png
+  artifactKey: Guid(da270f1560ba9ae438a9ab00547267f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Cherry.png using Guid(da270f1560ba9ae438a9ab00547267f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a30d99c7cfc639ab708f1b2e4d8caccf') in 0.046582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Garlic.png
+  artifactKey: Guid(6259713ae09948a4a9a24f0800a704b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Garlic.png using Guid(6259713ae09948a4a9a24f0800a704b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23cecc3c95f729a76acb71b01ea05fa3') in 0.022527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Broom.png
+  artifactKey: Guid(f2172b10483d3ae4a9708a707709feea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Broom.png using Guid(f2172b10483d3ae4a9708a707709feea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab41fb357625a08dea92f6dffe40ed0a') in 0.026868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/GoldCoinTen.png
+  artifactKey: Guid(612c82cdc6eb9b5429aad07add46f78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/GoldCoinTen.png using Guid(612c82cdc6eb9b5429aad07add46f78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5f91415d800b4f80846d4a453f5b7c4') in 0.044719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Milk.png
+  artifactKey: Guid(e3d16f4d3907c7c45aace4775ce05162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Milk.png using Guid(e3d16f4d3907c7c45aace4775ce05162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bde1d4fbac5f579c412335eced33793d') in 0.031712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BucketOfApples.png
+  artifactKey: Guid(a4eea92bbee4b2a44a0b1882180978a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/BucketOfApples.png using Guid(a4eea92bbee4b2a44a0b1882180978a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07e70b20bcf9a835558f52546f94ecd3') in 0.030909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Bread2.png
+  artifactKey: Guid(a2c4507a9703cd148974b37a50a34ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Bread2.png using Guid(a2c4507a9703cd148974b37a50a34ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86094c00536ed527af7aed85f0ee909f') in 0.045889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/FriedEgg.png
+  artifactKey: Guid(2d256dfa641521c458ecda685a5bc4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/FriedEgg.png using Guid(2d256dfa641521c458ecda685a5bc4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df778ed5bf0d7f2600c6eaff8b59cf52') in 0.020850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.541410 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/OliveOil.png
+  artifactKey: Guid(22fa08b370f29cc45934015a1d38dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/OliveOil.png using Guid(22fa08b370f29cc45934015a1d38dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e34b001dc02f1c054bf6f966624730c0') in 0.021167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Paper.png
+  artifactKey: Guid(1b592127558f25241bcdeea6492c49a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Paper.png using Guid(1b592127558f25241bcdeea6492c49a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3feecc81e5ae816daf148a3fec43e192') in 0.045661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Olives.png
+  artifactKey: Guid(fe5d26fbe8cf70f44ab3b65ebca50d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Olives.png using Guid(fe5d26fbe8cf70f44ab3b65ebca50d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc3f4a4dc3b92e0e588d8cb2f6cebf24') in 0.041973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/poker.png
+  artifactKey: Guid(515adc2eba976784b8833983c38dd3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/poker.png using Guid(515adc2eba976784b8833983c38dd3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f25e646febe8232dac28fdb1f681b1a') in 0.039840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.616013 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/QueenBee.png
+  artifactKey: Guid(d1e54190d84cf004e9fe8f920fccea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/QueenBee.png using Guid(d1e54190d84cf004e9fe8f920fccea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bee19ca980092b8f0d494f4f8a994302') in 0.028804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/TorchFire.png
+  artifactKey: Guid(1ee4b176a03d7bb49a21f65637f95fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/TorchFire.png using Guid(1ee4b176a03d7bb49a21f65637f95fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ae60d8cf18ad1d26222f687cb3811f9') in 0.042724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/RingGold2.png
+  artifactKey: Guid(bf6bbcdd2a471f8489aad1205eb96b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/RingGold2.png using Guid(bf6bbcdd2a471f8489aad1205eb96b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2890a654160af267cc373b03ec13ede0') in 0.028629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Tomato.png
+  artifactKey: Guid(fb722914b746a0b4b8bf61cfe5426159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Tomato.png using Guid(fb722914b746a0b4b8bf61cfe5426159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f38a16b7a33571c051f1c7b29748ae6') in 0.024722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Root.png
+  artifactKey: Guid(e35e59a265aa977468ccc0b46b469787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Root.png using Guid(e35e59a265aa977468ccc0b46b469787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e74865e1ac045971f90dee45592a5c0f') in 0.055709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Salt.png
+  artifactKey: Guid(d6dcf137ae3359943a99d31c2d44c211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/Salt.png using Guid(d6dcf137ae3359943a99d31c2d44c211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '942fec19568b720605c27da99128432d') in 0.040453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/RingSilver.png
+  artifactKey: Guid(9c5bee93c67e23348a7cf2f80bbe4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/RingSilver.png using Guid(9c5bee93c67e23348a7cf2f80bbe4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '711df65216ed75f32b647ab421c6f09b') in 0.033519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/RingViking.png
+  artifactKey: Guid(746acf47b0b18e34cb0d666579ffa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/RingViking.png using Guid(746acf47b0b18e34cb0d666579ffa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d5c675d409c695b0c4b659c0d328cee') in 0.033258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/WaterMalon.png
+  artifactKey: Guid(26946d5d08a59434c940db5a6bc91445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/ResourcesMedieval/WaterMalon.png using Guid(26946d5d08a59434c940db5a6bc91445) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7426f351900f98bc4d8ec991e5520687') in 0.040010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.068354 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/AxeHard.png
+  artifactKey: Guid(69fb6dff578f82d439895da0f80ebcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/AxeHard.png using Guid(69fb6dff578f82d439895da0f80ebcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd9757b1ddf8a21accea36c24337f75a') in 0.032503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Quiver3.png
+  artifactKey: Guid(86d9b070b071474428ed4dea34d1ea77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Quiver3.png using Guid(86d9b070b071474428ed4dea34d1ea77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb56d2a98ab5ae5331f799eda79669f2') in 0.026326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Quiver2.png
+  artifactKey: Guid(ceb24a2b9c6421d4592d4833f24354a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Quiver2.png using Guid(ceb24a2b9c6421d4592d4833f24354a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '404d801df074cbf3bd4edf7c4943636d') in 0.035826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/BrokenSword.png
+  artifactKey: Guid(85dd6b563d8577345af5cbdeca0eb132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/BrokenSword.png using Guid(85dd6b563d8577345af5cbdeca0eb132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adeef1373427acfd14336191d434cad5') in 0.023277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/KnifeDagger.png
+  artifactKey: Guid(b2ac9427562a2bc42a5dbcac215fa54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/KnifeDagger.png using Guid(b2ac9427562a2bc42a5dbcac215fa54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a6973a16bba343cc701571d24fea52f') in 0.019926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/MetalShield1.png
+  artifactKey: Guid(58a768061905f6b479e081829d84d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/MetalShield1.png using Guid(58a768061905f6b479e081829d84d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a30890ae09e70747ac62d910019085f') in 0.061863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/StoneHammer.png
+  artifactKey: Guid(efeaee932400e9f449536868c3950d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/StoneHammer.png using Guid(efeaee932400e9f449536868c3950d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3998c4893868ab771a32f4f29044357f') in 0.021987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Bolts.png
+  artifactKey: Guid(9dd949a6c91bab24b98fc54b37159dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Bolts.png using Guid(9dd949a6c91bab24b98fc54b37159dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfe28f35f630a2d5d0bb0a3343fcebcc') in 0.033308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/RomeDagger.png
+  artifactKey: Guid(e31c5a4d35f97ea469973eaefbf2c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/RomeDagger.png using Guid(e31c5a4d35f97ea469973eaefbf2c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbeb18c8104e45ec585bcc6ab17b497a') in 0.034905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/AxeOld.png
+  artifactKey: Guid(3394e20da14a17e4990b37cacdbdb3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/AxeOld.png using Guid(3394e20da14a17e4990b37cacdbdb3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b20afbcfb2bf02b1f76a8c554778d286') in 0.046924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/BlackBerberShield.png
+  artifactKey: Guid(2473915e633d96044a699e9d1fba938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/BlackBerberShield.png using Guid(2473915e633d96044a699e9d1fba938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1899bba579f2a05d083f71c6fda07fe4') in 0.024285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Bow3.png
+  artifactKey: Guid(0783b47873535334d859d0307dabecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Bow3.png using Guid(0783b47873535334d859d0307dabecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '22822feb249f16c2bc27b36de0b82d92') in 0.030532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/AxeHard2.png
+  artifactKey: Guid(c21e7a9b8cc7a884690d4131eb1669cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/AxeHard2.png using Guid(c21e7a9b8cc7a884690d4131eb1669cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ccb3454b3a00be31ca659cd80a7080e1') in 0.038362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Club.png
+  artifactKey: Guid(6e06326e30b238944ac8d0c50bab081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Club.png using Guid(6e06326e30b238944ac8d0c50bab081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df592ef66fe52740f6c8363ee4106ac1') in 0.019871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/BlackShield.png
+  artifactKey: Guid(21cb6a7d33771a14abdab51060b34989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/BlackShield.png using Guid(21cb6a7d33771a14abdab51060b34989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6a03d4039ef584b5496d952449e02f1') in 0.023660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Sword6.png
+  artifactKey: Guid(722f04b34570af14ab1856ee6e89962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Sword6.png using Guid(722f04b34570af14ab1856ee6e89962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87a2e6f35d8a8493026a072c3bf06fbe') in 0.025630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/MetalHammer4.png
+  artifactKey: Guid(c218c509f1c40e9478e3d01f8bad944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/MetalHammer4.png using Guid(c218c509f1c40e9478e3d01f8bad944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f546e9a8d833385d1d265f60327c504f') in 0.023929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Bow.png
+  artifactKey: Guid(e5768cee0a194c844a43e10f99584de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Bow.png using Guid(e5768cee0a194c844a43e10f99584de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '79cfbe7a5cb592a74270c8eac817ce2a') in 0.025667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/ShieldBuckler.png
+  artifactKey: Guid(3df7445c77caeb849b7366b712ed2ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/ShieldBuckler.png using Guid(3df7445c77caeb849b7366b712ed2ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29e46f84bb38a3963bcac3d60f6a2f8b') in 0.035278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/SpearTournamentBlue.png
+  artifactKey: Guid(4fcdd76c6a5e1e54fa4566443f3edf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/SpearTournamentBlue.png using Guid(4fcdd76c6a5e1e54fa4566443f3edf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dbe5271bf3835c5670b0e34e2d885118') in 0.046324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Spear6.png
+  artifactKey: Guid(a81db14132677cc4997ceef04378c69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Spear6.png using Guid(a81db14132677cc4997ceef04378c69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b3927045750426b6e1e550cfa7e9400a') in 0.032419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Crossbow2.png
+  artifactKey: Guid(86381319730cd4e4582a3547c4f9fe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/Crossbow2.png using Guid(86381319730cd4e4582a3547c4f9fe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '248f6d01d1d92c9774a785184ed69101') in 0.028080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 39.542010 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/SwordSaber3.png
+  artifactKey: Guid(55b5f67b937dc784689639efb2cc9280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/SwordSaber3.png using Guid(55b5f67b937dc784689639efb2cc9280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b4dcc4c09eaaa93dec3c97c39374997') in 0.023421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/WoodShieldBlackYellow.png
+  artifactKey: Guid(556ddf51370c4ec48b3e84a5a0fa948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/WoodShieldBlackYellow.png using Guid(556ddf51370c4ec48b3e84a5a0fa948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '437917cd426fb19396cdf5f954993114') in 0.096962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/TrainingSwordWood.png
+  artifactKey: Guid(69a3c56ab977a0741ac9466ec605ee06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/TrainingSwordWood.png using Guid(69a3c56ab977a0741ac9466ec605ee06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b40edfe6dc66f34723fae8f84b67fcb') in 0.052460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/TeutonicShield.png
+  artifactKey: Guid(19c2bb9ca7acdc1479c4a826db68315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/TeutonicShield.png using Guid(19c2bb9ca7acdc1479c4a826db68315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '41a5755199d978975804e2393825b1d0') in 0.021884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/WoodShield.png
+  artifactKey: Guid(d8e8ea7dc28cc0c4786a57ae65c9afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/WeponMedieval/WoodShield.png using Guid(d8e8ea7dc28cc0c4786a57ae65c9afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e464b6cd18879abf2f902b9b14d3182d') in 0.026780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 34.700384 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Bandages.png
+  artifactKey: Guid(f15e468ca876e0346b88d3bc47bff383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Bandages.png using Guid(f15e468ca876e0346b88d3bc47bff383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d0eca2715954283d383f53d8ac719fa') in 0.033598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Quest.png
+  artifactKey: Guid(18e9626254ced2d4fb199234b22dd34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Quest.png using Guid(18e9626254ced2d4fb199234b22dd34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23021eaf185c604f1418cd24dcdee7be') in 0.030638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_King.png
+  artifactKey: Guid(832d3e6dcc01117479810c3ecf5a25ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_King.png using Guid(832d3e6dcc01117479810c3ecf5a25ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '21aabd0e59213a4ef14a2d875461d3ec') in 0.028825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Guillotine.png
+  artifactKey: Guid(dcfa8aa1f39173c42b22023533bd9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Guillotine.png using Guid(dcfa8aa1f39173c42b22023533bd9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36b3d1c396a9a4647536a4d3e445baef') in 0.030207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_WoodCrusher.png
+  artifactKey: Guid(7f540f6ddc87f1642bcf81d0fe1880bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_WoodCrusher.png using Guid(7f540f6ddc87f1642bcf81d0fe1880bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abe85cf07f0b91b9643c4bf7a0ca5b7c') in 0.021225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Speed.png
+  artifactKey: Guid(283f1844a73a2ed47b47a1f7321e7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Speed.png using Guid(283f1844a73a2ed47b47a1f7321e7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '22e2e66840d0354626769466269216b6') in 0.024172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_House.png
+  artifactKey: Guid(12c5dfc53bd7b5a44a078efb7b6f1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_House.png using Guid(12c5dfc53bd7b5a44a078efb7b6f1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '851b3537673efb93649e73b31ab313c3') in 0.017559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Garden.png
+  artifactKey: Guid(4ad9f232d10b101458acf3485050f691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Garden.png using Guid(4ad9f232d10b101458acf3485050f691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '812c2e9b8d9a6805a14ae6488b2e3568') in 0.021397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_FireProjectile.png
+  artifactKey: Guid(24f26be32d88a184984c651e8b12ef6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_FireProjectile.png using Guid(24f26be32d88a184984c651e8b12ef6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'babde73930a0c7add1df58ff04b277e1') in 0.027346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Fluff.png
+  artifactKey: Guid(21c25f6a72f70604fa5e71d67ccd9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Fluff.png using Guid(21c25f6a72f70604fa5e71d67ccd9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aa6da98004d38cad74141a64b88de7ff') in 0.021172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_StoneWall.png
+  artifactKey: Guid(2fe0c4402161b814ba9f8c0268b4ec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_StoneWall.png using Guid(2fe0c4402161b814ba9f8c0268b4ec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9568f0b422d9095ad32d3319fe8a201') in 0.019843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Saw.png
+  artifactKey: Guid(2de49518f9852c74cb18dda33fc5d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Saw.png using Guid(2de49518f9852c74cb18dda33fc5d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0bebbd5438b6a4477ac2ac3bc1af061b') in 0.024145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_RandomBox.png
+  artifactKey: Guid(123cd1c15891c294c9948a0215af1105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_RandomBox.png using Guid(123cd1c15891c294c9948a0215af1105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93f6ebfcc2fc56eed779bb13c342fba8') in 0.022114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Science.png
+  artifactKey: Guid(24658320a9b42ba4fbd75c54651a7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Science.png using Guid(24658320a9b42ba4fbd75c54651a7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '00133dd989e2bdb65ea09f14a1cb4d57') in 0.026391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Death.png
+  artifactKey: Guid(d4adde1f8a35b6c4b88f923de844e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Death.png using Guid(d4adde1f8a35b6c4b88f923de844e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fdb926ae6fc881e91cce02abc9c9943') in 0.021194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Medicine.png
+  artifactKey: Guid(3a4eda0cbf98650488562565ab017bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_Medicine.png using Guid(3a4eda0cbf98650488562565ab017bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'feb00c59c7c970ff2f2f06ee8934f7ec') in 0.024220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_boots.png
+  artifactKey: Guid(674f642eda964ed42a8616835e24a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_boots.png using Guid(674f642eda964ed42a8616835e24a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4669865fd94504d1c4341b47754d5db5') in 0.021462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_TowerUpgrade.png
+  artifactKey: Guid(4ff450e5f6a749c49a4f8d8b678cf9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/TechnologiesMedieval/Tech_TowerUpgrade.png using Guid(4ff450e5f6a749c49a4f8d8b678cf9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8616687a86bd24c58ff69cc28a99412') in 0.022071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.571887 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_AxeAxe.png
+  artifactKey: Guid(c427599c893523049abf2cff70fc7bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_AxeAxe.png using Guid(c427599c893523049abf2cff70fc7bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1da658f30c82bd963ce91bc9a082224') in 0.038842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Down.png
+  artifactKey: Guid(f75cb7f31483cfd42b2e6c6282b44439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Down.png using Guid(f75cb7f31483cfd42b2e6c6282b44439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '00ab0a92e5d336eeef4c1e90e104e1f9') in 0.035645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_ThreeShoots.png
+  artifactKey: Guid(2eb69bdaa5ef1364eb65407bcebe30c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_ThreeShoots.png using Guid(2eb69bdaa5ef1364eb65407bcebe30c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b340a131aec76e5b3c14edc4ff4b54a1') in 0.027780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_GrabStone.png
+  artifactKey: Guid(3f4034083995b2440b8d652a831213fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_GrabStone.png using Guid(3f4034083995b2440b8d652a831213fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb4fb1b4bdae2663f10665ffe8c19839') in 0.027314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_SwordAttack.png
+  artifactKey: Guid(0597f54c28a314f45b756bfd90e63689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_SwordAttack.png using Guid(0597f54c28a314f45b756bfd90e63689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '76b6f2566edae45b8970cf0e5ca6d6ad') in 0.022310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_BalisticShoot2.png
+  artifactKey: Guid(26facffa9647594438a46dc0c3a814a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_BalisticShoot2.png using Guid(26facffa9647594438a46dc0c3a814a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12862e6c68247df5285ac25cfd1c6a0f') in 0.019390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_SwordMaster.png
+  artifactKey: Guid(c3e30b66942f5c94b9798f9f9de0b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_SwordMaster.png using Guid(c3e30b66942f5c94b9798f9f9de0b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84b86a5ada7db7645c2ceb2dc719a7ea') in 0.021627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Up2.png
+  artifactKey: Guid(d50b345bad374c64cb39650090be8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Up2.png using Guid(d50b345bad374c64cb39650090be8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '266ca85614d4914f59920d3923f1074f') in 0.024320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_GrabWood.png
+  artifactKey: Guid(aa913db6157ceab4aae9b00ebc33a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_GrabWood.png using Guid(aa913db6157ceab4aae9b00ebc33a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '632e2a344306dc1a8130c43a3fb4e266') in 0.021886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_GrabFood.png
+  artifactKey: Guid(d575adb11ac40d54aa08a8fb1d732460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_GrabFood.png using Guid(d575adb11ac40d54aa08a8fb1d732460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b163cdd4049529f6abf9040ded68445') in 0.019909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Mining.png
+  artifactKey: Guid(7180bd1eb6df64c4baa4304135588b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Mining.png using Guid(7180bd1eb6df64c4baa4304135588b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac3f67c6275337f618306d6f05980bb0') in 0.022933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Hard.png
+  artifactKey: Guid(7d9e3513c9de5d54294a5b10888fe5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Hard.png using Guid(7d9e3513c9de5d54294a5b10888fe5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54a7705c7226ea1e17ed39c3287ae33e') in 0.020279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Move.png
+  artifactKey: Guid(940e56846f1fe59428b8703934ecd642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Move.png using Guid(940e56846f1fe59428b8703934ecd642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbbc7bcffc0ef4646460666ad68b9f3b') in 0.021307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Scorpion.png
+  artifactKey: Guid(4e656356f6fb2e8428b71babffb677ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Scorpion.png using Guid(4e656356f6fb2e8428b71babffb677ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48dd8bb27bbaabd8aafe1de9e18ea105') in 0.029324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Defence.png
+  artifactKey: Guid(eb5a511b6d5e42a47afec3ddc65432c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Defence.png using Guid(eb5a511b6d5e42a47afec3ddc65432c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '69c9d4ceff8cde7cdaa355cfe542a9c1') in 0.021339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Get.png
+  artifactKey: Guid(9b3586c77e7cef24fa39df1ab0ef2def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_Get.png using Guid(9b3586c77e7cef24fa39df1ab0ef2def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b186d023fdd4388f45bb22532d7ea0c2') in 0.023630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_BombardShoot.png
+  artifactKey: Guid(45f6e4c5f42394d47a3875cef5321d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_BombardShoot.png using Guid(45f6e4c5f42394d47a3875cef5321d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df4ee936fed1488dd030a3740352c564') in 0.032819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_endurance.png
+  artifactKey: Guid(510c16a5849f0724fa0e3cc35d03e6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/MedievalIcons/SkillsMedieval/Skill_endurance.png using Guid(510c16a5849f0724fa0e3cc35d03e6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3c4ffe361377dd6acd8972105707892') in 0.033214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.170732 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Arrow_v2_04.png
+  artifactKey: Guid(b3fbd3a834147dc44802f9e4420cd926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Arrow_v2_04.png using Guid(b3fbd3a834147dc44802f9e4420cd926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '102fec97c47f30438da2dec77f240eae') in 0.019934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_32.png
+  artifactKey: Guid(ed07298116f891e49aac6829ac53a813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_32.png using Guid(ed07298116f891e49aac6829ac53a813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '752f76ceaa35c9e7e9c151ed02641ea4') in 0.022582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_24.png
+  artifactKey: Guid(2921afc742ebde3419bfa4bd85f345aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_24.png using Guid(2921afc742ebde3419bfa4bd85f345aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32b336c97c7c5b071dce9aa1fb15458a') in 0.023497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_04.png
+  artifactKey: Guid(b4804e4a5533c764c870603b2dcba51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_04.png using Guid(b4804e4a5533c764c870603b2dcba51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '331c04991c8c4a0e47e547f40032c448') in 0.025480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_08.png
+  artifactKey: Guid(9bf898bfa722b0947a015c30b6991614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_08.png using Guid(9bf898bfa722b0947a015c30b6991614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b9363ef6389586a99af5cf51de47020') in 0.023772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_18.png
+  artifactKey: Guid(096484b0502a3844faca67e5e4ea67ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_18.png using Guid(096484b0502a3844faca67e5e4ea67ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6061fe2edd293fc6de4acabf64318f3') in 0.027553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_17.png
+  artifactKey: Guid(f0545e525689ed841a88f6ced1ff3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_17.png using Guid(f0545e525689ed841a88f6ced1ff3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0809893f933906c5351595f8974f9bcb') in 0.019451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_10.png
+  artifactKey: Guid(c2ec0f90263c0834889ecd1f50a048df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_10.png using Guid(c2ec0f90263c0834889ecd1f50a048df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64eeaa1f964527629ba652d1d3adedea') in 0.019641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_54.png
+  artifactKey: Guid(86774504b03d467409c59b266ac50cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_54.png using Guid(86774504b03d467409c59b266ac50cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7dac1d72490c73b4ebe4f297f080381') in 0.026774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Bolt_v2_01.png
+  artifactKey: Guid(974cd0f0888b47646ae68e85cd55a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Bolt_v2_01.png using Guid(974cd0f0888b47646ae68e85cd55a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '659b9b00f5353ea91027c6e4beb43982') in 0.018472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_27.png
+  artifactKey: Guid(3be674bddc73f9044a07c32ae2c4dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_27.png using Guid(3be674bddc73f9044a07c32ae2c4dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80bf73e8097097195724d89e003b7970') in 0.021982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_36.png
+  artifactKey: Guid(1feff56fa07478a41b20b5a6c8eaf870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_36.png using Guid(1feff56fa07478a41b20b5a6c8eaf870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0888a956baed8e99234112fcac87bda') in 0.022923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_43.png
+  artifactKey: Guid(60afe8a54157a694984f2c6b88ee073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_43.png using Guid(60afe8a54157a694984f2c6b88ee073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3843ca7e45d9ff59bea3db3f5c3a093') in 0.024339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_19.png
+  artifactKey: Guid(4a7814fd39ce6d040b80ba8a7abfd8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_19.png using Guid(4a7814fd39ce6d040b80ba8a7abfd8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a87017ee73460a8680072feb2f02d1d') in 0.021957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_18.png
+  artifactKey: Guid(5f3803cbd56e4d34db88356b005af9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_18.png using Guid(5f3803cbd56e4d34db88356b005af9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '85c8a8c72bd8f2dbe2a17cf56f7dcd3c') in 0.031374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_21.png
+  artifactKey: Guid(23dac7c91023baf4e956b8b8bab099a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_21.png using Guid(23dac7c91023baf4e956b8b8bab099a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2f78f5e96253c3dbd8311a278c10f4f') in 0.021297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_39.png
+  artifactKey: Guid(7c830be4e8331f442b1595c7206ec133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_39.png using Guid(7c830be4e8331f442b1595c7206ec133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '606a2a14577234abcc7037ad7a3900a3') in 0.023953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_40.png
+  artifactKey: Guid(17ee3ef28032f774b867a71b7a2f0285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_40.png using Guid(17ee3ef28032f774b867a71b7a2f0285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '965585e0d169bec3e2b40c6dfbce28d5') in 0.035488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Bolt_v2_05.png
+  artifactKey: Guid(8d2cd322aa472274cbb55f8edbb75b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Bolt_v2_05.png using Guid(8d2cd322aa472274cbb55f8edbb75b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94f643b4efd0435a75d508e2503fa41c') in 0.022643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_07.png
+  artifactKey: Guid(27e4e6408ee053842b367f7d7cb38f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_07.png using Guid(27e4e6408ee053842b367f7d7cb38f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb116165941c19d346c2aaa34d1b6014') in 0.028072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_45.png
+  artifactKey: Guid(6eb60cabbfc6b214eb0a7831550104d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_45.png using Guid(6eb60cabbfc6b214eb0a7831550104d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36c874cddb55baaa276319cd4a8c133c') in 0.022331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_12.png
+  artifactKey: Guid(f266d6a031e1b0f4588a797e8ac58dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Book_v2_12.png using Guid(f266d6a031e1b0f4588a797e8ac58dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a1683d1c798df84f45126c3ab5169f8') in 0.027937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_30.png
+  artifactKey: Guid(09cbc6ad052e00640bb732b08f30af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5000FantasyIcons/WeaponIcons/WeaponIconsVol2/Axe_v2_30.png using Guid(09cbc6ad052e00640bb732b08f30af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55e06243a27b5b2f942996f4e5346cb0') in 0.045805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
