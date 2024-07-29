@@ -1,0 +1,57 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+AssetBundles/
+*.pidb
+*.booproj
+*.pidb.meta
+*.pdb
+*.opendb
+*.VC.db
+*.aps
+*.pidb
+*.unityproj
+*.sln
+*.csproj
+*.userprefs
+
+# Unity generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Auto-generated VS/MD/Consulo solution and project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/ServerData/
